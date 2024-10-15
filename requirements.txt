@@ -1,0 +1,6 @@
+# GNN/requirements.txt
+
+torch
+torch_geometric
+pandas
+numpy
