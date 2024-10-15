@@ -43,7 +43,7 @@ This script will load the trained model and allow you to input values for N and 
 
 The `train.py` script supports distributed training. To run on multiple GPUs:
 ```
-python -m torch.distributed.launch --nproc_per_node=NUM_GPUS train.py
+torchrun --nproc_per_node=NUM_GPUS train.py
 ```
 Replace `NUM_GPUS` with the number of GPUs you want to use.
 
